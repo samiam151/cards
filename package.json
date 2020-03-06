@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "react-bootstrap": "1.0.0-beta.17",
+    "bootstrap": "4.4.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,5 +15,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samiam151/cards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samiam151/cards/issues"
+  },
+  "homepage": "https://github.com/samiam151/cards#readme"
 }
