@@ -7,9 +7,9 @@ export const CardContextProvider = ({children, ...props}) => {
     const [cards, setCards] = useState(CardService.populateCards());
     const [activeCard, setActiveCard] = useState(null);
 
-    useEffect(() => {
-        setNewActiveCard();
-    }, []);
+    // useEffect(() => {
+    //     setNewActiveCard();
+    // }, []);
 
     function drawCard() {
         console.log("draw card:", cards.length);

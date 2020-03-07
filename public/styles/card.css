@@ -1,3 +1,279 @@
-.card {
-    
+.card__card {
+    border: 1px solid #333;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #eee;
 }
+
+.card__card.card__card--active {
+    border-width: 2px;
+    box-shadow: -5px 6px rgba(0,0,0,0.25);
+}
+
+.cardDisplay__deck {
+    position: relative;
+}
+
+.cardDisplay__deck .card__card {
+    position: absolute;
+}
+
+.cardDisplay__deck .card__card:nth-of-type(1) {
+    top: 1px;
+    left: 1px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(2) {
+    top: 2px;
+    left: 2px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(3) {
+    top: 3px;
+    left: 3px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(4) {
+    top: 4px;
+    left: 4px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(5) {
+    top: 5px;
+    left: 5px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(6) {
+    top: 6px;
+    left: 6px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(7) {
+    top: 7px;
+    left: 7px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(8) {
+    top: 8px;
+    left: 8px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(9) {
+    top: 9px;
+    left: 9px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(10) {
+    top: 10px;
+    left: 10px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(11) {
+    top: 11px;
+    left: 11px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(12) {
+    top: 12px;
+    left: 12px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(13) {
+    top: 13px;
+    left: 13px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(14) {
+    top: 14px;
+    left: 14px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(15) {
+    top: 15px;
+    left: 15px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(16) {
+    top: 16px;
+    left: 16px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(17) {
+    top: 17px;
+    left: 17px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(18) {
+    top: 18px;
+    left: 18px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(19) {
+    top: 19px;
+    left: 19px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(20) {
+    top: 20px;
+    left: 20px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(21) {
+    top: 21px;
+    left: 21px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(22) {
+    top: 22px;
+    left: 22px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(23) {
+    top: 23px;
+    left: 23px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(24) {
+    top: 24px;
+    left: 24px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(25) {
+    top: 25px;
+    left: 25px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(26) {
+    top: 26px;
+    left: 26px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(27) {
+    top: 27px;
+    left: 27px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(28) {
+    top: 28px;
+    left: 28px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(29) {
+    top: 29px;
+    left: 29px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(30) {
+    top: 30px;
+    left: 30px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(31) {
+    top: 31px;
+    left: 31px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(32) {
+    top: 32px;
+    left: 32px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(33) {
+    top: 33px;
+    left: 33px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(34) {
+    top: 34px;
+    left: 34px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(35) {
+    top: 35px;
+    left: 35px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(36) {
+    top: 36px;
+    left: 36px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(37) {
+    top: 37px;
+    left: 37px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(38) {
+    top: 38px;
+    left: 38px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(39) {
+    top: 39px;
+    left: 39px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(40) {
+    top: 40px;
+    left: 40px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(41) {
+    top: 41px;
+    left: 41px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(42) {
+    top: 42px;
+    left: 42px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(43) {
+    top: 43px;
+    left: 43px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(44) {
+    top: 44px;
+    left: 44px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(45) {
+    top: 45px;
+    left: 45px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(46) {
+    top: 46px;
+    left: 46px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(47) {
+    top: 47px;
+    left: 47px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(48) {
+    top: 48px;
+    left: 48px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(49) {
+    top: 49px;
+    left: 49px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(50) {
+    top: 50px;
+    left: 50px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(51) {
+    top: 51px;
+    left: 51px;
+  }
+  
+  .cardDisplay__deck .card__card:nth-of-type(52) {
+    top: 52px;
+    left: 52px;
+  }

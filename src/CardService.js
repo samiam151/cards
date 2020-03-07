@@ -21,7 +21,7 @@ export const CardService = {
     populateCards: () => {
         let cards = [],
             suits = ["clubs", "diamonds", "spades", "hearts"],
-            specialCards = ["ace", "jack", "kings", "queen"],
+            specialCards = ["ace", "jack", "king", "queen"],
             index = 2;
     
         suits.forEach(suit => {
@@ -38,31 +38,6 @@ export const CardService = {
                 imageFile: `/images/${type}_of_${suit}.png`
             });
         }
-        return cards.splice(0, 5);
+        return cards;
     }
 }
-
-// export const 
-
-// export const populateCards = () => {
-//     let cards = [],
-//         suits = ["clubs", "diamonds", "spades", "hearts"],
-//         specialCards = ["ace", "jack", "kings", "queen"],
-//         index = 2;
-
-//     suits.forEach(suit => {
-//         for (index = 2; index <= 10; index++) {
-//             pushCard(index, suit);
-//         }
-
-//         specialCards.forEach(card => pushCard(card, suit));
-//     })
-
-//     function pushCard(type, suit) {
-//         cards.push({
-//             value: `${type}_of_${suit}`,
-//             imageFile: `/images/${type}_of_${suit}.png`
-//         });
-//     }
-//     return shuffleCards(cards).splice(0,5);
-// };
