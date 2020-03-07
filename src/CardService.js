@@ -6,12 +6,12 @@ export const CardService = {
     
         while (newCards.length < initLength) {
     
-            // Generate a random number, thatwill serve as the index from which to pull.
+            // Generate a random number, that will serve as the index from which to pull.
             // The random number has a domain of 0 to n number of cards left in the deck.
             let num = Math.floor(Math.random() * cardsCopy.length);
     
             // Pull the index card from the initial cards
-            // Because the card is pulled, mutating the cardsCopy array, we can ensure that there
+            // Because the card is spliced, mutating the cardsCopy array, we can ensure that there
             // will be no duplicates.
             newCards.push(cardsCopy.splice(num, 1)[0]);
         }
@@ -30,7 +30,7 @@ export const CardService = {
             }
     
             specialCards.forEach(card => pushCard(card, suit));
-        })
+        });
     
         function pushCard(type, suit) {
             cards.push({
