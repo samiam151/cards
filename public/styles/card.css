@@ -19,6 +19,21 @@
     position: absolute;
 }
 
+/* 
+    These declaration were made with Sassmeister, as I didn't have SCSS added in.
+    The following code generated these declarations:
+
+    @for $i from 1 through 52 {
+        .cardDisplay__deck .card__card {
+            &:nth-of-type(#{$i}) {
+            top: #{$i}px;
+            left: #{$i}px;
+            }
+        }
+    }
+
+*/
+
 .cardDisplay__deck .card__card:nth-of-type(1) {
     top: 1px;
     left: 1px;
