@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 body {
     /* background-image: linear-gradient(to bottom right,  #52c234, #061700 120%); */
     background-color: #52c234;
+    font-family: 'Open Sans', sans-serif !important;
 }

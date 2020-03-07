@@ -1,0 +1,16 @@
+header {
+    background-color: #333;
+    color: #eee;
+    margin-bottom: 2em;
+    padding: 0.5em 0;
+}
+
+header .header__actions {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .header__actions button {
+    margin-right: 1em;
+}

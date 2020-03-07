@@ -9,21 +9,15 @@ export const CardDisplay = ({ ...props }) => {
 
     return (
         <div className="cardDisplay">
-            {/* Card Actions */}
-            <Row>
-                <div className="cardDisplay__actions">
-                    <Button onClick={() => context.shuffleCards()}>Shuffle Cards</Button>
-                    <Button onClick={() => context.drawCard()}>Draw Card</Button>
-                </div>
-            </Row>
 
             {/* Card Containers */}
             <Row>
                 {/* Deck Container */}
-                <Col xs={12} md={4}>
-                    <h2>The Deck <Badge variant="info">{cards.length}</Badge></h2>
+                <Col xs={12} md={5}>
+                    <h2>The Deck <Badge variant="secondary">{cards.length}</Badge></h2>
                     <div className="cardDisplay__deck">
                         {
+                            cards.length === 0 ? <Alert variant="info">No more cards! You can shuffle the deck, or draw to re-stack.</Alert> : 
                             cards.map((card, index) => (
                                 <Card key={`card--${index}`} value={card.value} imageFile={card.imageFile} />
                             ))
@@ -32,7 +26,7 @@ export const CardDisplay = ({ ...props }) => {
                 </Col>
 
                 {/* Active Card Container */}
-                <Col xs={12} md={8}>
+                <Col xs={12} md={7}>
                     <h2>Active Card</h2>
                     <div className="cardDisplay__activeCard">
                         {

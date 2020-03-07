@@ -12,6 +12,7 @@
 
 .cardDisplay__deck {
     position: relative;
+    min-height: 400px;
 }
 
 .cardDisplay__deck .card__card {
